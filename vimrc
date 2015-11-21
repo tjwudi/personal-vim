@@ -115,3 +115,7 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 " so ~/.yadr/vim/settings.vim
+
+" ================ Calls ================================
+call pathogen#runtime_append_all_bundles() " Activate pathogen
+call pathogen#helptags() " Activate pathogen helptags
