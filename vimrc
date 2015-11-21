@@ -1,4 +1,4 @@
-call pathogen#runtime_append_all_bundles() " Activate pathogen
+call pathogen#infect() " Activate pathogen
 call pathogen#helptags() " Activate pathogen helptags
 
 " Use Vim settings, rather then Vi settings (much better!).
