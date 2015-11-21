@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles() " Activate pathogen
+call pathogen#helptags() " Activate pathogen helptags
+
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -116,6 +119,4 @@ set smartcase       " ...unless we type a capital
 " ================ Custom Settings ========================
 " so ~/.yadr/vim/settings.vim
 
-" ================ Calls ================================
-call pathogen#runtime_append_all_bundles() " Activate pathogen
-call pathogen#helptags() " Activate pathogen helptags
+
