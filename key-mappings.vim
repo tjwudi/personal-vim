@@ -2,5 +2,5 @@
 imap jj <Esc>
 
 " CtrlP key mappings
-nmap <C-f> :CtrlP<CR>
+nmap <C-c><C-p> :CtrlP<CR>
 
