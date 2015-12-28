@@ -120,3 +120,4 @@ set smartcase       " ...unless we type a capital
 " so ~/.yadr/vim/settings.vim
 so ~/.vim/key-mappings.vim
 
+let mapleader = ','
