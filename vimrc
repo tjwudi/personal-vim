@@ -119,5 +119,13 @@ set smartcase       " ...unless we type a capital
 " ================ Custom Settings ========================
 " so ~/.yadr/vim/settings.vim
 so ~/.vim/key-mappings.vim
+" CtrlP
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=400
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn|node_modules)$',
+  \ 'file': '\v\.(exe|so|dll|pyc)$',
+  \ 'link': '',
+  \ }
 
 let mapleader = ','
