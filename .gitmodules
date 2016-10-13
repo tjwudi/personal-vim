@@ -28,3 +28,9 @@
 [submodule "bundle/vim-octave"]
 	path = bundle/vim-octave
 	url = git://github.com/jvirtanen/vim-octave.git
+[submodule "bundle/vim-bookmarks"]
+	path = bundle/vim-bookmarks
+	url = https://github.com/MattesGroeger/vim-bookmarks.git
+[submodule "bundle/taglist.vim"]
+	path = bundle/taglist.vim
+	url = git@github.com:vim-scripts/taglist.vim.git
